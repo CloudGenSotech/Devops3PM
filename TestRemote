@@ -2,7 +2,23 @@
 void main()
 {
 int a,b,c;
+int price,rate,time,omi,toti,totp
+
 clrscr();
+
+printf("\n Enter price:");
+scanf("%d",&price);
+printf(\n Enter rate of Inttest:");
+scanf("%d",&rate);
+printf("\n Enter time in monts:");
+scanf("%d",&time);
+omi=(price*rate)/100;
+printf("\nThe one month Intrest is %d",omi);
+
+
+
+
+
 printf("\n Enter A, B and C values:");
 scanf("%d%d%d",&a&b&c);
 c=a+b+c;
