@@ -1,0 +1,26 @@
+#include<STDIO.H>
+void main()
+{
+int a,b,c;
+int price,rate,time,omi,toti,totp
+
+clrscr();
+
+printf("\n Enter price:");
+scanf("%d",&price);
+printf(\n Enter rate of Inttest:");
+scanf("%d",&rate);
+printf("\n Enter time in monts:");
+scanf("%d",&time);
+omi=(price*rate)/100;
+printf("\nThe one month Intrest is %d",omi);
+toti=omi*time
+f("\n The total intrest is %d",toti);
+
+totp=price+toti;
+printf("\n The total yapable amount is %d",totp);
+
+getch();
+}
+
+
